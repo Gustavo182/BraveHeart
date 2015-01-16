@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>BraveHeart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css"> 
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <h1 id="titulo">BraveHeart</h1>
+        <nav  id="nav1">
+            <ul>
+                <li>Inicio</li>
+                <li>Miembros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <section id="section">
+            <div>
+                <h1 id="titulo2">BraveMember's</h1>
+                <p>Aqui veras los puntos que has otorgado a la guild (Min 0,Max 20000)</p>
+                <p> Elecerick<meter min="0" max="20000" value='17000'></meter></p>
+                <p> DigiAle<meter min="0" max="20000" value='17000'></meter></p>
+                <p> Arysna<meter min="0" max="20000" value='3003'></meter></p>
+            </div>
+            <h1 id='titulo3'>Contactanos</h1>
+            <form>
+                <p>
+                    <label for='nombre'>Nombre</label>
+                    <input type="text" id='nombre' placeholder="Aqui escribe tu nombre" required=""></p>
+                <p> <label for='correo'>Email</label>
+                    <input type="email" id='correo' placeholder="Escribe tu email" required=""></p>
+                <p><label for='edad'>Edad</label>
+                <input type="number" id='edad' min="0" max="30"></p>
+                <p><label for='calificacion'>Calificanos</label>
+                <input type="range" id='calificacion' min="0" max="10" value="5"></p>
+                <p><label for='fecha'>Fecha</label>
+                    <input type="date" id="fecha"></p>
+                <input type='submit' value="Enviar Datos" id="btnsubmit">
+            </form>
+        </section>
+        <footer>
+            <canvas id="miCanvas">
+
+            </canvas>
+        </footer>
+    </body>
+</html>

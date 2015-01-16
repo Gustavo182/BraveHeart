@@ -1,0 +1,91 @@
+
+body {
+    background-color: #99ccff;
+}
+
+h1{
+    color: blue;
+    font-family: Arial;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#titulo{
+    color: #660066;
+    text-align: center;
+    background-color: #1d1d1d;
+    width: 200px; 
+    height: 30px;
+    padding: 3px;
+}
+
+#titulo2{
+    background-color: buttonface;
+    padding: 2px;
+    text-align: left;
+    width: 207px;
+    height: 30px;
+    color: #660066;
+    font-family: Verdana;
+}
+
+#titulo3{
+    color: #660066;
+}
+
+#nav1{
+    text-align: center;
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+nav ul li {
+    text-align: center;
+    font-family: verdana;
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #1d1d1d;
+    padding: 10px;
+}
+
+#miCanvas{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+#section{
+  
+    font-family: verdana;
+    width: 600px;
+    height: 450px;
+    background-color: #1d1d1d;
+    color: #fff;
+    margin: auto;
+    text-align: left;
+    border-radius: 20px; 
+    padding: 20px;
+}
+a{
+    color: #660066;
+    font-weight: bold;
+}
+
+meter{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+    color: #660066;
+    margin-left: 20px;
+    width: 200px;
+}
+
+#btnsubmit{
+    border-radius: 5px;
+    color: #1d1d1d;
+    padding: 3px;
+    background-color: #fff;
+}
